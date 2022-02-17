@@ -23,7 +23,7 @@ spring:
       # 所以需要配置此参数
       matching-strategy: ant_path_matcher
   datasource:
-    url: jdbc:mysql://${online_ip:localhost:3306}/${online_db_name:erupt_test}?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://${online_ip:localhost}:3306/${online_db_name:erupt_test}?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     username: ${online_db_username:erupt_test}
     password: ${online_db_pwd:123456}
   jpa:
