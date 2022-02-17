@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <groupId>com.example</groupId>
     <artifactId>erupt-example</artifactId>
@@ -100,18 +100,26 @@
             <version>${erupt.version}</version>
         </dependency>
 
-        <!--magic-script-->
-        <dependency>
-            <groupId>xyz.erupt</groupId>
-            <artifactId>erupt-magic-api</artifactId>
-            <version>${erupt.version}</version>
-        </dependency>
+
 
         <!--velocity-->
         <dependency>
             <groupId>org.apache.velocity</groupId>
             <artifactId>velocity</artifactId>
             <version>1.7</version>
+        </dependency>
+
+        <!--lombok插件-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-boot-starter</artifactId>
+            <version>3.0.3</version>
         </dependency>
     </dependencies>
 
