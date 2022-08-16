@@ -34,4 +34,4 @@ COPY --from=build /app/target/mm-admin-0.0.1-SNAPSHOT.jar .
 EXPOSE 80
 
 # 执行启动命令
-CMD ["java", "-jar", "/app/erupt-example-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "/app/mm-admin-0.0.1-SNAPSHOT.jar"]
