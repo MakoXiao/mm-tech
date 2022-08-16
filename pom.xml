@@ -11,10 +11,10 @@
 
     <packaging>jar</packaging>
 
-    <groupId>com.example</groupId>
-    <artifactId>erupt-example</artifactId>
+    <groupId>com.mm.tech</groupId>
+    <artifactId>mm-admin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <description>Demo project for Spring Boot</description>
+    <description>com.mm.tech</description>
 
     <properties>
         <java.version>1.8</java.version>
