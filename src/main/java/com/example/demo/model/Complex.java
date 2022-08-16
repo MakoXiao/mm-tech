@@ -15,7 +15,7 @@ import xyz.erupt.annotation.sub_field.ViewType;
 import xyz.erupt.annotation.sub_field.sub_edit.*;
 import xyz.erupt.jpa.model.BaseModel;
 import xyz.erupt.upms.handler.DictChoiceFetchHandler;
-import xyz.erupt.upms.handler.SqlChoiceFetchHandler;
+import xyz.erupt.toolkit.handler.SqlChoiceFetchHandler;
 import xyz.erupt.upms.handler.ViaMenuValueCtrl;
 
 import javax.persistence.*;
